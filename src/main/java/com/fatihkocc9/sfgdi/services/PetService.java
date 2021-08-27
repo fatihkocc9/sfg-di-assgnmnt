@@ -1,4 +1,4 @@
-package guru.springframework.sfgdi.services;
+package com.fatihkocc9.sfgdi.services;
 
 /**
  * Created by jt on 12/28/19.
