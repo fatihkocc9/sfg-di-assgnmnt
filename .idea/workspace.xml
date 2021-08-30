@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -20,8 +23,34 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85d1ac7e-78f4-40dc-9b37-aa689f21e136" name="Default Changelist" comment="Before component scan">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/config/GreetingServiceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/services/ConstructorGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/services/ConstructorGreetingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/services/PropertyInjectedGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/services/PropertyInjectedGreetingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/services/SetterInjectedGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/services/SetterInjectedGreetingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/SfgDiApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/controllers/ConstructorInjectedController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/controllers/I18nController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/controllers/MyController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/controllers/PetController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/controllers/PropertyInjectedController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/controllers/SetterInjectedController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/services/CatPetService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/services/ConstructorGreetingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/services/DogPetService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/services/GreetingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/services/I18NSpanishService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/services/I18nEnglishGreetingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/services/PetService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/services/PrimaryGreetingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/services/PropertyInjectedGreetingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/guru/springframework/sfgdi/services/SetterInjectedGreetingService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/guru/springframework/sfgdi/SfgDiApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/guru/springframework/sfgdi/controllers/ConstructorInjectedControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/guru/springframework/sfgdi/controllers/PropertyInjectedControllerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/guru/springframework/sfgdi/controllers/SetterInjectedControllerTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +67,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1x8hwGGudsJONSA8HQhEi78G4PX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -51,6 +88,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -58,6 +96,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="shared-indexes" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -65,14 +104,28 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration name="SfgDiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <configuration name="SfgDiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
       <module name="sfg-di-assgnmnt" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="guru.springframework.sfgdi.SfgDiApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fatihkocc9.sfgdi.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.fatihkocc9.sfgdi.SfgDiApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SfgDiApplication" />
+      </list>
+    </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -87,6 +140,7 @@
       <workItem from="1629743380522" duration="3106000" />
       <workItem from="1629807628285" duration="222000" />
       <workItem from="1630055226257" duration="1496000" />
+      <workItem from="1630316404720" duration="875000" />
     </task>
     <task id="LOCAL-00001" summary="Before component scan">
       <created>1630055319340</created>
@@ -106,7 +160,7 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -124,74 +178,8 @@
     <MESSAGE value="Before component scan" />
     <option name="LAST_COMMIT_MESSAGE" value="Before component scan" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="2104" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1629743003569">
-      <screen x="1680" y="25" width="1920" height="1055" />
-    </state>
-    <state x="2104" y="211" key="#com.intellij.execution.impl.EditConfigurationsDialog/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1629743003569" />
-    <state x="2453" y="272" key="#com.intellij.ide.util.MemberChooser" timestamp="1629743605351">
-      <screen x="1680" y="25" width="1920" height="1055" />
-    </state>
-    <state x="2453" y="272" key="#com.intellij.ide.util.MemberChooser/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1629743605351" />
-    <state x="2262" y="245" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1629743132432">
-      <screen x="1680" y="25" width="1920" height="1055" />
-    </state>
-    <state x="2262" y="245" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1629743132432" />
-    <state x="2389" y="426" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1629743231912">
-      <screen x="1680" y="25" width="1920" height="1055" />
-    </state>
-    <state x="2389" y="426" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1629743231912" />
-    <state x="2492" y="453" key="Github.ShareDialog" timestamp="1630066550803">
-      <screen x="1680" y="25" width="1920" height="1055" />
-    </state>
-    <state x="2492" y="453" key="Github.ShareDialog/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1630066550803" />
-    <state width="1638" height="287" key="GridCell.Tab.0.bottom" timestamp="1629783685793">
-      <screen x="0" y="25" width="1680" height="1025" />
-    </state>
-    <state width="1638" height="287" key="GridCell.Tab.0.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1629783685793" />
-    <state width="1878" height="287" key="GridCell.Tab.0.bottom/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1629744099053" />
-    <state width="1638" height="287" key="GridCell.Tab.0.center" timestamp="1629783685793">
-      <screen x="0" y="25" width="1680" height="1025" />
-    </state>
-    <state width="1638" height="287" key="GridCell.Tab.0.center/0.25.1680.1025@0.25.1680.1025" timestamp="1629783685793" />
-    <state width="1878" height="287" key="GridCell.Tab.0.center/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1629744099052" />
-    <state width="1638" height="287" key="GridCell.Tab.0.left" timestamp="1629783685793">
-      <screen x="0" y="25" width="1680" height="1025" />
-    </state>
-    <state width="1638" height="287" key="GridCell.Tab.0.left/0.25.1680.1025@0.25.1680.1025" timestamp="1629783685793" />
-    <state width="1878" height="287" key="GridCell.Tab.0.left/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1629744099051" />
-    <state width="1638" height="287" key="GridCell.Tab.0.right" timestamp="1629783685793">
-      <screen x="0" y="25" width="1680" height="1025" />
-    </state>
-    <state width="1638" height="287" key="GridCell.Tab.0.right/0.25.1680.1025@0.25.1680.1025" timestamp="1629783685793" />
-    <state width="1878" height="287" key="GridCell.Tab.0.right/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1629744099052" />
-    <state width="1638" height="287" key="GridCell.Tab.1.bottom" timestamp="1629783685794">
-      <screen x="0" y="25" width="1680" height="1025" />
-    </state>
-    <state width="1638" height="287" key="GridCell.Tab.1.bottom/0.25.1680.1025@0.25.1680.1025" timestamp="1629783685794" />
-    <state width="1878" height="287" key="GridCell.Tab.1.bottom/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1629744099054" />
-    <state width="1638" height="287" key="GridCell.Tab.1.center" timestamp="1629783685794">
-      <screen x="0" y="25" width="1680" height="1025" />
-    </state>
-    <state width="1638" height="287" key="GridCell.Tab.1.center/0.25.1680.1025@0.25.1680.1025" timestamp="1629783685794" />
-    <state width="1878" height="287" key="GridCell.Tab.1.center/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1629744099053" />
-    <state width="1638" height="287" key="GridCell.Tab.1.left" timestamp="1629783685794">
-      <screen x="0" y="25" width="1680" height="1025" />
-    </state>
-    <state width="1638" height="287" key="GridCell.Tab.1.left/0.25.1680.1025@0.25.1680.1025" timestamp="1629783685794" />
-    <state width="1878" height="287" key="GridCell.Tab.1.left/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1629744099053" />
-    <state width="1638" height="287" key="GridCell.Tab.1.right" timestamp="1629783685794">
-      <screen x="0" y="25" width="1680" height="1025" />
-    </state>
-    <state width="1638" height="287" key="GridCell.Tab.1.right/0.25.1680.1025@0.25.1680.1025" timestamp="1629783685794" />
-    <state width="1878" height="287" key="GridCell.Tab.1.right/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1629744099053" />
-    <state x="2128" y="131" key="SettingsEditor" timestamp="1629743305014">
-      <screen x="1680" y="25" width="1920" height="1055" />
-    </state>
-    <state x="2128" y="131" key="SettingsEditor/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1629743305014" />
-    <state x="2240" y="289" key="Vcs.Push.Dialog.v2" timestamp="1630055322822">
-      <screen x="1680" y="25" width="1920" height="1055" />
-    </state>
-    <state x="2240" y="289" key="Vcs.Push.Dialog.v2/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1630055322822" />
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
