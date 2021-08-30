@@ -20,27 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="85d1ac7e-78f4-40dc-9b37-aa689f21e136" name="Default Changelist" comment="Before component scan">
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/SfgDiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/SfgDiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controllers/ConstructorInjectedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/controllers/ConstructorInjectedController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controllers/I18nController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/controllers/I18nController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controllers/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/controllers/MyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controllers/PetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/controllers/PetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controllers/PropertyInjectedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/controllers/PropertyInjectedController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/controllers/SetterInjectedController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/controllers/SetterInjectedController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/CatPetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/services/CatPetService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/ConstructorGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/services/ConstructorGreetingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/DogPetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/services/DogPetService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/GreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/services/GreetingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/I18NSpanishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/services/I18NSpanishService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/I18nEnglishGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/services/I18nEnglishGreetingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/PetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/services/PetService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/PrimaryGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/services/PrimaryGreetingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/PropertyInjectedGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/services/PropertyInjectedGreetingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/guru/springframework/sfgdi/services/SetterInjectedGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/services/SetterInjectedGreetingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/sfgdi/SfgDiApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fatihkocc9/sfgdi/SfgDiApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/sfgdi/controllers/ConstructorInjectedControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fatihkocc9/sfgdi/controllers/ConstructorInjectedControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/sfgdi/controllers/PropertyInjectedControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fatihkocc9/sfgdi/controllers/PropertyInjectedControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/guru/springframework/sfgdi/controllers/SetterInjectedControllerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/fatihkocc9/sfgdi/controllers/SetterInjectedControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,6 +39,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1x8hwGGudsJONSA8HQhEi78G4PX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -104,7 +86,7 @@
       <workItem from="1629742861585" duration="504000" />
       <workItem from="1629743380522" duration="3106000" />
       <workItem from="1629807628285" duration="222000" />
-      <workItem from="1630055226257" duration="340000" />
+      <workItem from="1630055226257" duration="1496000" />
     </task>
     <task id="LOCAL-00001" summary="Before component scan">
       <created>1630055319340</created>
@@ -113,7 +95,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630055319340</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Before component scan">
+      <created>1630055579590</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1630055579590</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -152,6 +141,10 @@
       <screen x="1680" y="25" width="1920" height="1055" />
     </state>
     <state x="2389" y="426" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1629743231912" />
+    <state x="2492" y="453" key="Github.ShareDialog" timestamp="1630066550803">
+      <screen x="1680" y="25" width="1920" height="1055" />
+    </state>
+    <state x="2492" y="453" key="Github.ShareDialog/1680.25.1920.1055/0.25.1680.1025@1680.25.1920.1055" timestamp="1630066550803" />
     <state width="1638" height="287" key="GridCell.Tab.0.bottom" timestamp="1629783685793">
       <screen x="0" y="25" width="1680" height="1025" />
     </state>
