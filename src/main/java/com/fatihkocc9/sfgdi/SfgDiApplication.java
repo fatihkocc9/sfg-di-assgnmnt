@@ -1,9 +1,11 @@
 package com.fatihkocc9.sfgdi;
 
 import com.fatihkocc9.sfgdi.controllers.*;
+import com.fatihkocc9.sfgdi.datasource.FakeDataSource;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 public class SfgDiApplication {
@@ -15,6 +17,7 @@ public class SfgDiApplication {
 		System.out.println("--- The Best Pet is ---");
 		System.out.println(petController.whichPetIsTheBest());
 
+		System.out.println("--- Language for hello");
 		I18nController i18nController = (I18nController) ctx.getBean("i18nController");
 		System.out.println(i18nController.sayHello());
 
@@ -34,6 +37,13 @@ public class SfgDiApplication {
 		System.out.println("-------- Constructor" );
 		ConstructorInjectedController constructorInjectedController = (ConstructorInjectedController) ctx.getBean("constructorInjectedController");
 		System.out.println(constructorInjectedController.getGreeting());
+
+		System.out.println("-------- FakeDataSource Properties" );
+		FakeDataSource fakeDataSource = ctx.getBean(FakeDataSource.class);
+		System.out.println(fakeDataSource.getUsername());
+		System.out.println(fakeDataSource.getPassword());
+		System.out.println(fakeDataSource.getJdbcUrl());
+
 	}
 
 }
