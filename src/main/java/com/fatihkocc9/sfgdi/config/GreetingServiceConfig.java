@@ -10,10 +10,12 @@ import com.fatihkocc9.sfgdi.services.*;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.*;
 
+import org.springframework.boot.context.properties.ConfigurationProperties;
+
 @Configuration
 public class GreetingServiceConfig {
 
-    //@Bean
+    @Bean
     FakeDataSource fakeDataSource(@Value("${fatihkocc.username}") String username,
                                   @Value("${fatihkocc.password}") String password,
                                   @Value("${fatihkocc.jdbcUrl}") String jdbcUrl) {

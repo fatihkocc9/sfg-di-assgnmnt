@@ -22,36 +22,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85d1ac7e-78f4-40dc-9b37-aa689f21e136" name="Default Changelist" comment="Before component scan">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/pets/PetServiceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/datasource/FakeDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/repository/EnglishGreetingRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/repository/EnglishGreetingRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sfg-di-assgnmnt.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sfg-di-assgnmnt.iml" afterDir="false" />
+    <list default="true" id="85d1ac7e-78f4-40dc-9b37-aa689f21e136" name="Default Changelist" comment="Spring application yaml trials">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/SfgDiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/SfgDiApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/config/GreetingServiceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/config/GreetingServiceConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/controllers/PetController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/controllers/PetController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/services/CatPetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/pets/CatPetService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/services/DogPetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/pets/DogPetService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/services/I18NSpanishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/services/I18NSpanishService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/services/I18nEnglishGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/services/I18nEnglishGreetingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/services/PetService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/pets/PetService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/services/PrimaryGreetingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/services/PrimaryGreetingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fatihkocc9/sfgdi/SfgDiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fatihkocc9/sfgdi/SfgDiApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/fatihkocc9/sfgdi/config/GreetingServiceConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fatihkocc9/sfgdi/config/GreetingServiceConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fatihkocc9/sfgdi/controllers/PetController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fatihkocc9/sfgdi/controllers/PetController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fatihkocc9/sfgdi/services/CatPetService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fatihkocc9/sfgdi/services/DogPetService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fatihkocc9/sfgdi/services/I18NSpanishService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fatihkocc9/sfgdi/services/I18NSpanishService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fatihkocc9/sfgdi/services/I18nEnglishGreetingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fatihkocc9/sfgdi/services/I18nEnglishGreetingService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fatihkocc9/sfgdi/services/PetService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/fatihkocc9/sfgdi/services/PrimaryGreetingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fatihkocc9/sfgdi/services/PrimaryGreetingService.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +132,8 @@
       <workItem from="1630055226257" duration="1496000" />
       <workItem from="1630316404720" duration="3379000" />
       <workItem from="1630321919413" duration="2362000" />
-      <workItem from="1630354710158" duration="3938000" />
+      <workItem from="1630354710158" duration="4164000" />
+      <workItem from="1630358929235" duration="1119000" />
     </task>
     <task id="LOCAL-00001" summary="Before component scan">
       <created>1630055319340</created>
@@ -174,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630055579590</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Spring application yaml trials">
+      <created>1630358885991</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1630358885991</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -194,7 +176,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Before component scan" />
-    <option name="LAST_COMMIT_MESSAGE" value="Before component scan" />
+    <MESSAGE value="Spring application yaml trials" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring application yaml trials" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
