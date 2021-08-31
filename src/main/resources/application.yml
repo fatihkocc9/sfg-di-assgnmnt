@@ -2,6 +2,6 @@ spring:
   profiles:
     active: dog, EN
 fatihkocc:
-  username:YmlSuperuser
-  password:dbPassword
-  jdbcUrl:someJdbcUrl
+  username: YmlSuperuser
+  password: dbPassword
+  jdbcUrl: someJdbcUrl
