@@ -1,7 +1,25 @@
 spring:
   profiles:
-    active: dog, EN
+    active:
+    -  dog
+    -  EN
+    -  stage
 fatihkocc:
-  username: YmlSuperuser
-  password: dbPassword
-  jdbcUrl: someJdbcUrl
+  username:  YmlSuperuser
+  password:  dbPassword
+  jdbcUrl:  someJdbcUrl
+
+---
+spring:
+  profiles:  prod
+fatihkocc:
+  username:  YamlProdUser
+  password:  prodDbPassword
+  jdbcUrl:  prodJdbcUrl
+---
+spring:
+  profiles:  stage
+fatihkocc:
+  username:  YamlStageUser
+  password:  stageDbPassword
+  jdbcUrl:  stageJdbcUrl

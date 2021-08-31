@@ -22,8 +22,20 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="85d1ac7e-78f4-40dc-9b37-aa689f21e136" name="Default Changelist" comment="Spring application yaml trials">
+    <list default="true" id="85d1ac7e-78f4-40dc-9b37-aa689f21e136" name="Default Changelist" comment="Spring application yaml">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/config/SfgConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/config/SfgConstructorConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/application-qa.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/SfgDiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/SfgDiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/config/GreetingServiceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fatihkocc9/sfgdi/config/GreetingServiceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application-dev.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fatihkocc9/sfgdi/SfgDiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fatihkocc9/sfgdi/SfgDiApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/fatihkocc9/sfgdi/config/GreetingServiceConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/fatihkocc9/sfgdi/config/GreetingServiceConfig.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +45,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="spring-beans.schema" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -71,7 +83,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="spring" />
+    <property name="settings.editor.selected.configurable" value="spring.boot" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
@@ -132,7 +144,8 @@
       <workItem from="1630321919413" duration="2362000" />
       <workItem from="1630354710158" duration="4164000" />
       <workItem from="1630358929235" duration="1119000" />
-      <workItem from="1630389296080" duration="293000" />
+      <workItem from="1630389296080" duration="5143000" />
+      <workItem from="1630428769475" duration="2532000" />
     </task>
     <task id="LOCAL-00001" summary="Before component scan">
       <created>1630055319340</created>
@@ -162,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1630389412258</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Spring application yaml">
+      <created>1630389603895</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1630389603895</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,7 +203,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Before component scan" />
     <MESSAGE value="Spring application yaml trials" />
-    <option name="LAST_COMMIT_MESSAGE" value="Spring application yaml trials" />
+    <MESSAGE value="Spring application yaml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Spring application yaml" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

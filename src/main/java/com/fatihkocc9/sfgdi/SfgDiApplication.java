@@ -1,5 +1,7 @@
 package com.fatihkocc9.sfgdi;
 
+import com.fatihkocc9.sfgdi.config.SfgConfiguration;
+import com.fatihkocc9.sfgdi.config.SfgConstructorConfig;
 import com.fatihkocc9.sfgdi.controllers.*;
 import com.fatihkocc9.sfgdi.datasource.FakeDataSource;
 import org.springframework.boot.SpringApplication;
@@ -43,6 +45,18 @@ public class SfgDiApplication {
 		System.out.println(fakeDataSource.getUsername());
 		System.out.println(fakeDataSource.getPassword());
 		System.out.println(fakeDataSource.getJdbcUrl());
+
+		System.out.println("-------- Config Properties" );
+		SfgConfiguration sfgConfiguration = ctx.getBean(SfgConfiguration.class);
+		System.out.println(sfgConfiguration.getUsername());
+		System.out.println(sfgConfiguration.getPassword());
+		System.out.println(sfgConfiguration.getJdbcUrl());
+
+		System.out.println("-------- Constuctor Binding" );
+		SfgConstructorConfig sfgConstructorConfig = ctx.getBean(SfgConstructorConfig.class);
+		System.out.println(sfgConstructorConfig.getUsername());
+		System.out.println(sfgConstructorConfig.getPassword());
+		System.out.println(sfgConstructorConfig.getJdbcUrl());
 
 	}
 

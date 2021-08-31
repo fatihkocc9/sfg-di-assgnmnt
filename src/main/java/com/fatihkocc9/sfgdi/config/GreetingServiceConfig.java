@@ -8,21 +8,21 @@ import com.fatihkocc9.sfgdi.repository.EnglishGreetingRepository;
 import com.fatihkocc9.sfgdi.repository.EnglishGreetingRepositoryImpl;
 import com.fatihkocc9.sfgdi.services.*;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.*;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
+@EnableConfigurationProperties(SfgConstructorConfig.class)
 @Configuration
 public class GreetingServiceConfig {
 
     @Bean
-    FakeDataSource fakeDataSource(@Value("${fatihkocc.username}") String username,
-                                  @Value("${fatihkocc.password}") String password,
-                                  @Value("${fatihkocc.jdbcUrl}") String jdbcUrl) {
+    FakeDataSource fakeDataSource(SfgConstructorConfig sfgConstructorConfig) {
         FakeDataSource fakeDataSource = new FakeDataSource();
-        fakeDataSource.setPassword(password);
-        fakeDataSource.setUsername(username);
-        fakeDataSource.setJdbcUrl(jdbcUrl);
+        fakeDataSource.setPassword(sfgConstructorConfig.getPassword());
+        fakeDataSource.setUsername(sfgConstructorConfig.getUsername());
+        fakeDataSource.setJdbcUrl(sfgConstructorConfig.getJdbcUrl());
         return fakeDataSource;
     }
 
